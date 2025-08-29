@@ -53,7 +53,6 @@ export default function RootLayout({ children }) {
             },
           }}
         />
-        ç
       </body>
     </html>
   );
