@@ -30,7 +30,7 @@ export const translations = {
       cta2: 'different',
       curr1: 'Currently Building',
       curr2: 'AI Dental Management Platform',
-      cvlong: 'View Full Resume',
+      cvlong: 'View Full Résumé',
       cvshort: 'Resume',
       description1: ' Building accessible apps that solve',
       description2: 'real customer problems',
