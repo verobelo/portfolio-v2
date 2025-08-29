@@ -16,3 +16,22 @@ html {
     --color-border-dark: #334155;
 
 }
+
+
+::view-transition-old(root) {
+    animation-delay: 500ms;
+}
+
+::view-transition-new(root) {
+    animation: circle-in 500ms;
+}
+
+@keyframes circle-in {
+    from {
+        clip-path: circle(0% at 80% 10%);
+    }
+
+    to {
+        clip-path: circle(120% at 80% 10%);
+    }
+}
