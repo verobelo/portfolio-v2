@@ -74,7 +74,7 @@ export default function Navbar({}) {
         <div className='flex items-center gap-4'>
           <button
             onClick={handleLanguageToggle}
-            className='hidden md:block px-3 py-2 hover:text-indigo-500 transition-colors cursor-pointer border border-slate-300 dark:border-slate-600 rounded-md text-sm font-semibold'
+            className='hidden md:block px-3 py-2 hover:text-indigo-500 transition-colors cursor-pointer border border-slate-300 dark:border-border-dark rounded-md text-sm font-semibold'
             role='button'
             aria-label='Toggle language'>
             {language === 'en' ? 'ES' : 'EN'}
@@ -168,7 +168,7 @@ export default function Navbar({}) {
           <li className='flex items-center gap-3'>
             <button
               onClick={handleLanguageToggle}
-              className='block md:hidden px-3 py-2 hover:text-indigo-500 transition-colors cursor-pointer border border-slate-300 dark:border-slate-600 rounded-md text-sm font-semibold'
+              className='block md:hidden px-3 py-2 hover:text-indigo-500 transition-colors cursor-pointer border border-slate-300 dark:border-pink-500 rounded-md text-sm font-semibold'
               role='button'
               aria-label='Toggle language'>
               {language === 'en' ? 'ES' : 'EN'}
