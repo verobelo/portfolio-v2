@@ -23,7 +23,7 @@ export const metadata = {
     siteName: 'Veronika Belozerova Portfolio',
     images: [
       {
-        url: 'https://portfolio-v2-brown-omega.vercel.app/og-image.png',
+        url: 'https://veronikacodes.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Veronika Belozerova - Customer-Centric React Developer',
