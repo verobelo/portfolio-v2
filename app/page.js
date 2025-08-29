@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className='grid grid-rows-[auto_1fr_auto] dark:bg-primary-dark'>
       <Navbar />
-      <main className='mt-10 md:mt-0 lg:mt-24 md:mx-10'>
+      <main className='md:mx-10'>
         <Hero />
         <SectionSeparator variant='shadow' className='hidden dark:flex' />
         <Skills />
