@@ -8,6 +8,17 @@ import { translations } from '@/_utils/translations';
 
 export default function Navbar({}) {
   const { isDarkMode, setIsDarkMode } = useDarkMode();
+
+  function handleModeToggle() {
+    if (document.startViewTransition) {
+      document.startViewTransition(() => {
+        setIsDarkMode((prev) => !prev);
+      });
+    } else {
+      setIsDarkMode((prev) => !prev);
+    }
+  }
+
   const sideMenuRef = useRef();
   const openMenu = () => {
     sideMenuRef.current.style.transform = 'translateX(-16rem)';
@@ -69,7 +80,7 @@ export default function Navbar({}) {
             {language === 'en' ? 'ES' : 'EN'}
           </button>
           <button
-            onClick={() => setIsDarkMode((prev) => !prev)}
+            onClick={handleModeToggle}
             className='p-2 hover:text-indigo-500 transition-colors cursor-pointer'
             role='button'
             aria-label='Toggle dark mode'>
