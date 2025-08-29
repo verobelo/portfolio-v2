@@ -31,7 +31,7 @@ export default function Navbar({}) {
 
   return (
     <header>
-      <nav className='w-full md:fixed px-5 pt-3 md:pt-6 lg:pt-4 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 bg-white/40 lg:backdrop-blur-md dark:bg-primary-dark dark:text-header-dark'>
+      <nav className='w-full md:fixed px-6 py-5 md:py-6 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 bg-white/40 lg:backdrop-blur-md dark:bg-primary-dark dark:text-header-dark'>
         <Link
           href='/'
           className='inline-flex items-center gap-1 text-3xl font-medium '>
@@ -71,7 +71,7 @@ export default function Navbar({}) {
             </Link>
           </li>
         </ul>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-3'>
           <button
             onClick={handleLanguageToggle}
             className='hidden md:block px-3 py-2 hover:text-indigo-500 transition-colors cursor-pointer border border-slate-300 dark:border-border-dark rounded-md text-sm font-semibold'

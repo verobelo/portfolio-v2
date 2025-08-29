@@ -10,9 +10,9 @@ export default function Hero() {
   const t = translations[language].hero;
   return (
     <section
-      className='min-h-screen flex md:items-center md:justify-center flex-col mt-10 md:mt-0 pb-10 md:pb-0'
+      className='min-h-screen flex flex-col pt-16 md:pt-36 xl:pt-48 pb-16 md:pb-18'
       id='home'>
-      <div className='max-w-5xl mx-auto px-5'>
+      <div className='max-w-5xl mx-auto px-5 flex-1 flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 gap-8 lg:gap-12 items-center'>
           <div className='space-y-4 md:space-y-6 order-2 md:order-1'>
             <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight text-center md:text-left dark:text-header-dark'>
@@ -106,7 +106,7 @@ export default function Hero() {
                 height={380}
               />
 
-              <div className='absolute -left-2 -bottom-6 md:-left-4 md:-bottom-8 lg:-bottom-6 lg:-left-6 bg-white p-3 lg:p-4 rounded-2xl shadow-xl border border-indigo-100 dark:bg-slate-800/90 '>
+              <div className='absolute -left-2 -bottom-6 bg-white p-3 lg:p-4 rounded-2xl shadow-xl border border-indigo-100 dark:bg-slate-800/90 '>
                 <div className='flex items-center gap-2 lg:gap-3'>
                   <div className='w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-br from-indigo-600 to-pink-500 rounded-full flex items-center justify-center'>
                     <span className='text-white font-bold text-lg lg:text-xl'>
@@ -127,7 +127,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className='text-center mt-16 lg:mt-24 hidden xl:block xl:mb-16'>
+        <div className='text-center hidden xl:flex xl:justify-center mt-40'>
           <Link
             href='#skills'
             className='inline-block animate-bounce hover:animate-none transition-all group'>

@@ -23,7 +23,7 @@ export default function Contact() {
   return (
     <section
       id='contact'
-      className='bg-gradient-to-br from-indigo-50/50 to-pink-50/50 dark:bg-primary-dark dark:bg-none py-10 lg:py-14'>
+      className='bg-gradient-to-br from-indigo-50/50 to-pink-50/50 dark:bg-primary-dark dark:bg-none py-16 md:py-18'>
       <div className='max-w-4xl mx-auto px-5 text-center'>
         <h2 className='text-2xl md:text-3xl font-bold text-slate-800 dark:text-header-dark mb-4 lg:mb-8'>
           {t.title1}

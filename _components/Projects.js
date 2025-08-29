@@ -1,40 +1,16 @@
 'use client';
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { translations } from '@/_utils/translations';
 import { useLanguageToggle } from '@/_contexts/LanguageContext';
+import { translations } from '@/_utils/translations';
 
 export default function Projects() {
-  const projects = [
-    {
-      id: 1,
-      title: 'DentalCare Pro',
-      key: 'dentalcare',
-      image: '/project-dental.jpg',
-      tags: ['React', 'OpenAI API', 'Next.js'],
-      liveUrl: 'https://dentalcare-pro.vercel.app',
-      githubUrl: 'https://github.com/veronika/dentalcare-pro',
-      previewImage: '/dental.jpg',
-    },
-    {
-      id: 2,
-      title: 'NomadGym',
-      key: 'nomadgym',
-      image: '/project-nomadgym.jpg',
-      tags: ['React', 'OpenAI API', 'Next.js'],
-      liveUrl: 'https://nomadgym-pro.vercel.app',
-      githubUrl: 'https://github.com/veronika/nomadgym',
-      previewImage: '/nomad.jpg',
-    },
-  ];
   const { language } = useLanguageToggle();
   const t = translations[language].projects;
   const tUnder = translations[language].underConstruction;
   return (
     <section
       id='projects'
-      className='py-10 lg:py-14 bg-white dark:bg-primary-dark '>
+      className='py-16 md:py-18 bg-white dark:bg-primary-dark '>
       <div className='max-w-7xl mx-auto px-5 w-full'>
         <div className='text-center mb-8 md:mb-16'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-800 dark:text-header-dark mb-3 md:mb-4'>

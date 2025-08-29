@@ -42,7 +42,7 @@ export default function Skills() {
 
   return (
     <section
-      className='py-10 xl:py-14 bg-gradient-to-br from-indigo-50/50 to-pink-50/50 dark:bg-primary-dark dark:bg-none '
+      className='py-16 md:py-18 bg-gradient-to-br from-indigo-50/50 to-pink-50/50 dark:bg-primary-dark dark:bg-none '
       id='skills'>
       <div className='max-w-7xl mx-auto px-5'>
         <div className='text-center mb-12 lg:mb-16'>
