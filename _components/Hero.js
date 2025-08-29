@@ -59,7 +59,7 @@ export default function Hero() {
               {t.description3}
             </p>
 
-            <div className='flex flex-col sm:flex-row gap-3 items-center justify-center md:justify-start mt-6 lg:mt-8'>
+            <div className='flex flex-col md:flex-row gap-3 items-center justify-center grow-0 md:grow md:justify-start mt-6 lg:mt-8'>
               <Link
                 href='/'
                 className='bg-white dark:bg-primary-dark text-indigo-600 border-2 border-indigo-600  px-5 md:px-6 py-2 md:py-3 rounded-full hover:bg-indigo-700 hover:text-white transition-all hover:scale-105 font-semibold shadow-lg text-base md:text-lg flex items-center gap-2 w-full sm:w-auto justify-center'>
@@ -90,7 +90,7 @@ export default function Hero() {
                   {' '}
                   {t.certsshort}
                 </span>
-                <span className='md:hidden lg:inline'> {t.certsshort}</span>
+                <span className='md:hidden lg:inline'> {t.certslong}</span>
               </Link>
             </div>
           </div>
