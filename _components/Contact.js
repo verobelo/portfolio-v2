@@ -4,6 +4,7 @@ import Link from 'next/link';
 import toast from 'react-hot-toast';
 import { translations } from '@/_utils/translations';
 import { useLanguageToggle } from '@/_contexts/LanguageContext';
+import { MoveUpRight } from 'lucide-react';
 
 export default function Contact() {
   const { language } = useLanguageToggle();
@@ -48,8 +49,9 @@ export default function Contact() {
                   className='lg:w-[30px] lg:h-[30px]'
                 />
               </div>
-              <h3 className='font-semibold text-slate-700 dark:text-body-text-dark mb-1 text-base lg:text-lg'>
-                Linkedin &#8599;
+              <h3 className='flex items-center justify-center gap-2 font-semibold text-slate-700 dark:text-body-text-dark mb-1 text-base lg:text-lg'>
+                <span>Linkedin</span>
+                <MoveUpRight size={20} />
               </h3>
               <p className='text-sm md:text-base lg:text-lg text-slate-700 dark:text-muted-text-dark'>
                 - {t.linkedin} -
@@ -57,7 +59,7 @@ export default function Contact() {
             </Link>
           </li>
 
-          <li className='bg-white dark:bg-slate-800/50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 border border-indigo-100 group text-lg w-50 md:w-auto'>
+          <li className='bg-white dark:bg-slate-800/50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 border border-indigo-100 group text-lg w-50 md:w-auto flex flex-col justify-center items-center'>
             <Link
               href='https://github.com/verobelo'
               target='_blank'
@@ -71,8 +73,9 @@ export default function Contact() {
                   className='lg:w-[30px] lg:h-[30px]'
                 />
               </div>
-              <h3 className='font-semibold text-slate-700 dark:text-body-text-dark mb-1 text-base lg:text-lg'>
-                Github &#8599;
+              <h3 className='flex items-center justify-center gap-2 font-semibold text-slate-700 dark:text-body-text-dark mb-1 text-base lg:text-lg'>
+                <span>Github</span>
+                <MoveUpRight size={18} />
               </h3>
               <p className='text-sm md:text-base lg:text-lg text-slate-700 dark:text-muted-text-dark'>
                 - {t.github} -
