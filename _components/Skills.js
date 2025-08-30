@@ -93,21 +93,21 @@ export default function Skills() {
             <div className='space-y-3 md:space-y-4 mb-6'>
               <div className='flex items-center gap-3 md:gap-4 bg-white dark:bg-slate-800/50 p-3 md:p-4 rounded-2xl shadow-sm border border-pink-100/50'>
                 <div className='w-3 h-3 bg-gradient-to-r from-indigo-400 to-pink-400 dark:from-indigo-600 dark:to-pink-600 rounded-full'></div>
-                <span className='font-medium text-slate-700 dark:text-body-text-dark text-base lg:text-lg'>
+                <span className='font-semibold text-slate-700 dark:text-body-text-dark text-base lg:text-lg'>
                   {t.soft1}
                 </span>
               </div>
 
               <div className='flex items-center gap-3 md:gap-4 bg-white dark:bg-slate-800/50 p-3 md:p-4 rounded-2xl shadow-sm border border-pink-100/50'>
                 <div className='w-3 h-3 bg-gradient-to-r from-indigo-400 to-pink-400 dark:from-indigo-600 dark:to-pink-600 rounded-full'></div>
-                <span className='font-medium text-slate-700 dark:text-body-text-dark text-base lg:text-lg'>
+                <span className='font-semibold text-slate-700 dark:text-body-text-dark text-base lg:text-lg'>
                   {t.soft2}
                 </span>
               </div>
 
               <div className='flex items-center gap-3 md:gap-4 bg-white dark:bg-slate-800/50 p-3 md:p-4 rounded-2xl shadow-sm border border-pink-100/50'>
                 <div className='w-3 h-3 bg-gradient-to-r from-indigo-400 to-pink-400 dark:from-indigo-600 dark:to-pink-600 rounded-full'></div>
-                <span className='font-medium text-slate-700 dark:text-body-text-dark text-base lg:text-lg'>
+                <span className='font-semibold text-slate-700 dark:text-body-text-dark text-base lg:text-lg'>
                   {t.soft3}
                 </span>
               </div>
