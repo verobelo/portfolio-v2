@@ -24,7 +24,7 @@ export default function Hero() {
             <div className='bg-gradient-to-r dark:bg-slate-800/50 dark:bg-none from-indigo-50 to-pink-50 p-4 lg:p-6 rounded-2xl border border-indigo-100'>
               <div className='grid grid-cols-3 gap-2 md:gap-4 text-center'>
                 <div>
-                  <div className='text-lg md:text-xl lg:text-2xl font-bold text-indigo-700'>
+                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700'>
                     10
                   </div>
                   <div className='text-sm md:text-base lg:text-lg text-slate-600 dark:text-body-text-dark'>
@@ -32,7 +32,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div>
-                  <div className='text-lg md:text-xl lg:text-2xl font-bold text-indigo-700'>
+                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700'>
                     4
                   </div>
                   <div className='text-sm md:text-base lg:text-lg text-slate-600 dark:text-body-text-dark'>
@@ -40,7 +40,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div>
-                  <div className='text-lg md:text-xl lg:text-2xl font-bold text-indigo-700'>
+                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700'>
                     2+
                   </div>
                   <div className='text-sm md:text-base lg:text-lg text-slate-600 dark:text-body-text-dark'>
