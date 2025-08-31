@@ -112,12 +112,27 @@ export default function Contact() {
             <span className='font-semibold text-base lg:text-lg'>
               {t.curr1}
             </span>
-            {t.curr2} 🇪🇸
+            {t.curr2}{' '}
+            <Image
+              src='/spain.svg'
+              alt='Spanish flag'
+              width={16}
+              height={16}
+              className='inline ml-1 -mt-2'
+            />
             <br />
             <span className='font-semibold text-base lg:text-lg'>
               {t.curr3}
             </span>
-            {t.curr4}
+            {t.curr4} (
+            <Image
+              src='/spain.svg'
+              alt='Spanish flag'
+              width={16}
+              height={16}
+              className='inline -mt-2'
+            />
+            )
           </p>
         </div>
       </div>
