@@ -21,7 +21,7 @@ export const translations = {
       curr1: 'Currently based in: ',
       curr2: 'Spain',
       curr3: 'Available to work: ',
-      curr4: 'Remote (🌐) or Hybrid (🇪🇸)',
+      curr4: 'Remote (🌐) or Hybrid ',
     },
     hero: {
       certslong: 'View Certifications',
@@ -112,7 +112,7 @@ export const translations = {
       curr1: 'Actualmente vivo en: ',
       curr2: 'España',
       curr3: 'Disponible para trabajar: ',
-      curr4: 'En remoto (🌐) o Híbrido (🇪🇸)',
+      curr4: 'En remoto (🌐) o Híbrido ',
     },
     hero: {
       certslong: 'Ver Certificaciones',
