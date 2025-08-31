@@ -127,7 +127,10 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className='text-center hidden xl:flex xl:justify-center mt-40'>
+        <div
+          className={`${
+            language === 'en' ? 'mt-40' : 'mt-30'
+          } text-center hidden xl:flex xl:justify-center`}>
           <Link
             href='#skills'
             className='inline-block animate-bounce hover:animate-none transition-all group'>
