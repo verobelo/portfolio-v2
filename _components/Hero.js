@@ -17,14 +17,17 @@ export default function Hero() {
           <div className='space-y-4 md:space-y-6 order-2 md:order-1'>
             <h1 className='text-4xl md:text-5xl font-bold text-slate-800 leading-tight text-center md:text-left dark:text-header-dark'>
               {t.header1}
-              <span className='text-indigo-600'> {t.header2} </span>
+              <span className='text-indigo-600 dark:text-indigo-400'>
+                {' '}
+                {t.header2}{' '}
+              </span>
               {t.header3}
             </h1>
 
             <div className='bg-gradient-to-r dark:bg-slate-800/50 dark:bg-none from-indigo-50 to-pink-50 p-4 lg:p-6 rounded-2xl border border-indigo-100'>
               <div className='grid grid-cols-3 gap-2 md:gap-4 text-center'>
                 <div>
-                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700'>
+                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700 dark:text-indigo-400'>
                     10
                   </div>
                   <div className='text-sm md:text-base lg:text-lg text-slate-600 dark:text-body-text-dark'>
@@ -32,7 +35,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div>
-                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700'>
+                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700 dark:text-indigo-400'>
                     4
                   </div>
                   <div className='text-sm md:text-base lg:text-lg text-slate-600 dark:text-body-text-dark'>
@@ -40,7 +43,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div>
-                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700'>
+                  <div className='text-xl md:text-2xl lg:text-2xl font-bold text-indigo-700 dark:text-indigo-400'>
                     2+
                   </div>
                   <div className='text-sm md:text-base lg:text-lg text-slate-600 dark:text-body-text-dark'>
@@ -63,7 +66,7 @@ export default function Hero() {
               <Link
                 prefetch={false}
                 href='/'
-                className='bg-white dark:bg-primary-dark text-indigo-600 border-2 border-indigo-600  px-5 md:px-6 py-2 md:py-3 rounded-full hover:bg-indigo-700 hover:text-white transition-all hover:scale-105 font-semibold shadow-lg text-base md:text-lg flex items-center gap-2 w-full sm:w-auto justify-center'>
+                className='bg-white dark:bg-primary-dark text-indigo-600 border-2 border-indigo-600 dark:border-indigo-400 px-5 md:px-6 py-2 md:py-3 rounded-full hover:bg-indigo-600 hover:text-white transition-all hover:scale-105 font-semibold shadow-lg text-base md:text-lg flex items-center gap-2 w-full sm:w-auto justify-center dark:text-indigo-400 dark:hover:bg-indigo-500'>
                 <Image
                   src='/case1.svg'
                   alt='Case icon'
@@ -80,7 +83,7 @@ export default function Hero() {
                 href='/certificates.pdf'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='border-2 border-pink-500 text-pink-600 px-5 md:px-6 py-2 md:py-3 rounded-full hover:bg-pink-500 hover:text-white transition-all font-semibold text-base md:text-lg flex items-center gap-2 w-full sm:w-auto justify-center'>
+                className='border-2 border-pink-600 text-pink-600 dark:text-pink-400 dark:border-pink-400 px-5 md:px-6 py-2 md:py-3 rounded-full hover:bg-pink-600 dark:hover:bg-pink-500 hover:text-white transition-all font-semibold text-base md:text-lg flex items-center gap-2 w-full sm:w-auto justify-center'>
                 <Image
                   className='hidden md:inline lg:hidden'
                   src='/scroll.svg'
@@ -136,8 +139,10 @@ export default function Hero() {
           <Link
             href='#skills'
             className='inline-block animate-bounce hover:animate-none transition-all group'>
-            <span className='group-hover:text-pink-600 transition-colors cursor-pointer font-bold text-xl dark:text-body-text-dark'>
-              {t.cta1} <span className='text-pink-600'>{t.cta2}</span> ↓
+            <span className='group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors cursor-pointer font-bold text-xl dark:text-body-text-dark'>
+              {t.cta1}{' '}
+              <span className='text-pink-600 dark:text-pink-400'>{t.cta2}</span>{' '}
+              ↓
             </span>
           </Link>
         </div>

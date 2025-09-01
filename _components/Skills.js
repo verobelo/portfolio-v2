@@ -48,7 +48,7 @@ export default function Skills() {
         <div className='text-center mb-12 lg:mb-16'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-800 mb-4 dark:text-header-dark'>
             {t.title1}
-            <span className='text-indigo-600 dark:text-indigo-700'>
+            <span className='text-indigo-600 dark:text-indigo-400'>
               {' '}
               {t.title2}
             </span>

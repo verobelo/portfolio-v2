@@ -15,7 +15,10 @@ export default function Projects() {
         <div className='text-center mb-8 md:mb-16'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-800 dark:text-header-dark mb-3 md:mb-4'>
             {t.header1}
-            <span className='text-indigo-600'> {t.header2}</span>
+            <span className='text-indigo-600 dark:text-indigo-400'>
+              {' '}
+              {t.header2}
+            </span>
           </h2>
           <p className='text-lg md:text-xl text-slate-700 dark:text-body-text-dark max-w-2xl mx-auto'>
             {t.description}

@@ -27,7 +27,9 @@ export default function Contact() {
       <div className='max-w-4xl mx-auto px-5 text-center'>
         <h2 className='text-2xl md:text-3xl font-bold text-slate-800 dark:text-header-dark mb-4 lg:mb-8'>
           {t.title1}
-          <span className='text-indigo-700'>{t.title2}</span>
+          <span className='text-indigo-600 dark:text-indigo-400'>
+            {t.title2}
+          </span>
         </h2>
 
         <p className='text-lg md:text-xl text-slate-700 mb-12 max-w-4xl mx-auto dark:text-body-text-dark'>

@@ -36,7 +36,9 @@ export default function Navbar({}) {
           href='/'
           className='inline-flex items-center gap-1 text-3xl font-medium '>
           <span className='text-slate-800 dark:text-header-dark'>Veronika</span>
-          <span className='text-indigo-500 text-5xl -mt-3'>.</span>{' '}
+          <span className='text-indigo-600 dark:text-indigo-400 text-5xl -mt-3'>
+            .
+          </span>{' '}
         </Link>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/80 backdrop-blur-sm shadow-sm border border-indigo-100 text-xl dark:bg-slate-800/50 dark:border-border-dark'>
           <li>
