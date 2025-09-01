@@ -4,11 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 {
-    margin-block: 0.67em;
-    font-size: 2em;
-}
-
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
@@ -19,7 +14,12 @@ h1 {
     --color-body-text-dark: #cbd5e1;
     --color-muted-text-dark: #94a3b8;
     --color-border-dark: #334155;
+}
 
+@layer base {
+    h1 {
+        @apply text-4xl md:text-5xl;
+    }
 }
 
 
