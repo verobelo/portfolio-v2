@@ -15,7 +15,7 @@ export default function Hero() {
       <div className='max-w-5xl mx-auto px-5 flex-1 flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 gap-8 lg:gap-12 items-center'>
           <div className='space-y-4 md:space-y-6 order-2 md:order-1'>
-            <h1 className='text-4xl md:text-5xl font-bold text-slate-800 leading-tight text-center md:text-left dark:text-header-dark'>
+            <h1 className='font-bold text-slate-800 leading-tight text-center md:text-left dark:text-header-dark'>
               {t.header1}
               <span className='text-indigo-600 dark:text-indigo-400'>
                 {' '}
