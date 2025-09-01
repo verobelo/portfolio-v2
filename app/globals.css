@@ -4,6 +4,11 @@ html {
     scroll-behavior: smooth;
 }
 
+:where(h1) {
+    margin-block: 0.67em;
+    font-size: 2em;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
