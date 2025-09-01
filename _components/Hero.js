@@ -10,7 +10,7 @@ export default function Hero() {
   const t = translations[language].hero;
   return (
     <section
-      className='min-h-screen flex flex-col pt-16 md:pt-36 xl:pt-48 pb-16 md:pb-18'
+      className='min-h-screen flex flex-col pt-16 md:pt-36 xl:pt-48 pb-16 md:pb-18 dark:bg-primary-dark'
       id='home'>
       <div className='max-w-5xl mx-auto px-5 flex-1 flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 gap-8 lg:gap-12 items-center'>
