@@ -50,7 +50,7 @@ I'm currently **open to frontend developer opportunities** where I can bring my 
 **Let's connect:**
 - 🌐 Portfolio: [www.veronikacodes.com](https://www.veronikacodes.com/)
 - 💼 LinkedIn: [www.linkedin.com/veronika-belozerova](https://www.linkedin.com/in/veronika-belozerova/)
-- 📧 Email: [v.belozerova.dev@gmail.com]
+- 📧 Email: [v.belozerova.dev@gmail.com](v.belozerova.dev@gmail.com)
 - 🐙 GitHub: [github.com/verobelo](https://github.com/verobelo)
 ---
 
