@@ -2,11 +2,42 @@
 
 import { useLanguageToggle } from '@/_contexts/LanguageContext';
 import { translations } from '@/_utils/translations';
+import Image from 'next/image';
+import Link from 'next/link';
+
+const projects = [
+  {
+    id: '1',
+    key: 'dentahub',
+    title: 'DentaHub',
+    subtitle:
+      'Full-stack responsive dental platform that digitizes patient registration, appointment scheduling and administration',
+    liveUrl: 'https://dentahub.vercel.app/',
+    githubUrl: 'https://github.com/verobelo/dentahub',
+    previewImage: '/dentahub-preview.png',
+    problemDesc:
+      'Dental clinics rely on paper forms that are uncomfortable for patients to fill under time pressure, difficult to read, and easily lost - leading to inefficient data management.',
+    solutionDesc:
+      'A full-stack platform where patients register at their own pace, schedule appointments with real-time availability, and get AI chatbot assistance. Admins manage appointments with automated SMS notifications.',
+    demoAccess:
+      'Click "Demo Patient" on homepage for instant patient access, or "Admin" with passkey 123456 for admin features.',
+    tags: [
+      'Next.js 15',
+      'Typescript',
+      'Appwrite',
+      'Tailwind CSS',
+      'shadcn',
+      'OpenAI',
+    ],
+  },
+];
 
 export default function Projects() {
   const { language } = useLanguageToggle();
   const t = translations[language].projects;
-  const tUnder = translations[language].underConstruction;
+  {
+    /*const tUnder = translations[language].underConstruction;*/
+  }
   return (
     <section
       id='projects'
@@ -24,7 +55,7 @@ export default function Projects() {
             {t.description}
           </p>
         </div>
-        <div className='bg-yellow-50 flex flex-col gap-3 items-center justify-center dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-8'>
+        {/*<div className='bg-yellow-50 flex flex-col gap-3 items-center justify-center dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mb-8'>
           <p className='text-base md:text-lg lg:text-xl font-semibold text-yellow-950 dark:text-yellow-400'>
             {tUnder.title}
           </p>
@@ -34,8 +65,8 @@ export default function Projects() {
               {tUnder.description}
             </p>
           </div>
-        </div>
-        {/*<div className='grid md:grid-cols-2 gap-8 lg:gap-12 mb-12'>
+        </div>*/}
+        <div className='grid md:grid-cols-2 gap-8 lg:gap-12 mb-12'>
           {projects.map((project) => (
             <ProjectCard
               key={project.id}
@@ -62,14 +93,13 @@ export default function Projects() {
             </div>
             <div className='hidden md:block md:text-4xl'>⚡</div>
           </div>
-        </div>*/}
+        </div>
       </div>
     </section>
   );
 }
 
-{
-  /*function ProjectCard({ project, translations, t }) {
+function ProjectCard({ project, translations, t }) {
   return (
     <div className='group relative rounded-2xl shadow-sm border border-indigo-100/50 transition-all duration-300 overflow-hidden bg-white dark:bg-slate-800/50'>
       <div
@@ -126,6 +156,14 @@ export default function Projects() {
               {translations.solutionDesc}
             </p>
           </div>
+          <div>
+            <h4 className='text-lg md:text-xl font-bold mb-1 text-slate-900 dark:text-header-dark'>
+              {t.demoAccess}
+            </h4>
+            <p className='text-base md:text-lg leading-relaxed text-slate-800 dark:text-body-text-dark'>
+              {translations.demoAccess}
+            </p>
+          </div>
 
           <div className='flex flex-wrap gap-2'>
             {project.tags.map((tag) => (
@@ -139,7 +177,6 @@ export default function Projects() {
         </div>
       </div>
 
-      
       <div
         className='hidden lg:flex cursor-pointer absolute inset-0 opacity-0 group-hover:opacity-95 transition-opacity duration-300 items-center justify-center'
         style={{
@@ -167,5 +204,4 @@ export default function Projects() {
       </div>
     </div>
   );
-}*/
 }
