@@ -6,7 +6,7 @@ export const translations = {
         'Building advanced React projects featuring AI integration and multilingual support - updates coming soon',
     },
     footer:
-      'Built with Next.js 15, Context API and Tailwind CSS 4 by yours truly · Deployed with Vercel · All text is set in the Ovo typeface',
+      'Built with Next.js 15, Context API and Tailwind CSS 4 by yours truly · All text is set in the Ovo typeface',
     contact: {
       toast: 'Email has been copied to the clipboard.',
       title1: "Let's",
@@ -29,7 +29,8 @@ export const translations = {
       cta1: '↓ See what makes me',
       cta2: 'different',
       curr1: 'Currently Building',
-      curr2: 'AI Dental Management Platform',
+      curr2:
+        'An aggregator platform offering a flexible gym pass for travelers and vanlifers across Spain',
       cvlong: 'View Full Résumé',
       cvshort: 'Resume',
       description1: ' Building accessible apps that solve',
@@ -53,28 +54,25 @@ export const translations = {
     projects: {
       additional1: 'More Projects Coming Soon',
       additional2: 'Currently building',
-      additional3: 'Animal Shelter Platform',
-      additional4: 'Real Estate AI Agent',
-      additional5: 'Travel Booking System',
+      additional3: 'Online Gym Pass for travalers in Spain',
+      additional4: 'Website for a cocktail & live music beach club',
+      additional5: 'Promotional website for AI Tools company',
       code: 'Code',
-      dentalcare: {
+      demoAccess: 'Demo Access',
+      dentahub: {
         problemDesc:
-          'Dental patients struggle with lengthy intake forms and language barriers, leading to delays and frustration.',
+          'Dental clinics rely on paper forms that are uncomfortable for patients to fill under time pressure, difficult to read, and easily lost - leading to inefficient data management.',
         solutionDesc:
-          'Built an AI assistant that handles multilingual appointment booking and streamlines patient intake with accessibility-first forms.',
-        subtitle: 'AI-Powered Clinic Management',
+          'A full-stack platform where patients register at their own pace, schedule appointments with real-time availability, and get AI chatbot assistance. Admins manage appointments with automated SMS notifications.',
+        demoAccess:
+          'Click "Demo Patient" on homepage for instant patient access, or "Admin" with passkey 123456 for admin features.',
+        subtitle:
+          'Full-stack responsive dental platform that digitizes patient registration, appointment scheduling and administration',
       },
       description:
         'Real solutions for real problems - built with customer empathy and cutting-edge tech.',
       header1: 'Featured',
       header2: 'Projects',
-      nomadgym: {
-        problemDesc:
-          'RV travelers waste hours searching multiple gym websites for day passes, often finding outdated information.',
-        solutionDesc:
-          'Created a centralized platform with real-time gym availability, location mapping, and instant digital passes.',
-        subtitle: 'Gym Network for Nomads\n',
-      },
       problem: 'Problem',
       solution: 'Solution',
     },
@@ -97,7 +95,7 @@ export const translations = {
         'Creando proyectos avanzados de React con integración de IA y soporte multilingüe - actualizaciones próximamente',
     },
     footer:
-      'Desarrolado con Next.js 15, Context API y Tailwind CSS 4 por su servidora · Desplegado con Vercel · La fuente utilizada es Ovo',
+      'Desarrolado con Next.js 15, Context API y Tailwind CSS 4 por su servidora · La fuente utilizada es Ovo',
     contact: {
       toast: 'El email ha sido copiado al portapapeles',
       title1: 'Conect',
@@ -120,7 +118,8 @@ export const translations = {
       cta1: '↓ Ver lo que me hace',
       cta2: 'destacar',
       curr1: 'Actualmente creando',
-      curr2: 'Plataforma de Gestión Dental con IA',
+      curr2:
+        'Una plataforma agregadora que ofrece un pase de gimnasio flexible para viajeros y vanlifers en España.',
       cvlong: 'Ver currículum completo',
       cvshort: 'Currículum',
       description1: 'Creando aplicaciones accesibles que resuelven',
@@ -144,28 +143,28 @@ export const translations = {
     projects: {
       additional1: 'Más proyectos próximamente',
       additional2: 'Actualmente creando',
-      additional3: 'Plataforma de Refugio de Animales',
-      additional4: 'Agencia inmobiliaria IA',
-      additional5: 'Sistema de Reservas de Viajes',
+      additional3:
+        'Plataforma agregadora de pases flexibles de gimnasios para viajeros',
+      additional4:
+        'Sitio web para un Club de Playa con cócteles y música en vivo',
+      additional5:
+        'Web Promocional para una empresa de soluciones de Inteligencia Artificial',
       code: 'Código',
-      dentalcare: {
+      demoAccess: 'Acceso a la Demo',
+      dentahub: {
         problemDesc:
-          'Los pacientes dentales luchan con formularios de admisión largos y barreras lingüísticas, lo que provoca retrasos y frustración.',
+          'Las clínicas dentales dependen de formularios en papel que son incómodos para los pacientes que tienen poco tiempo para rellenarlos, difíciles de leer y que se pierden fácilmente, lo que conduce a una gestión de datos ineficiente.',
         solutionDesc:
-          'Construido un asistente de IA que maneja la programación de citas multilingüe y agiliza la admisión de pacientes con formularios accesibles.',
-        subtitle: 'Gestión de Clínicas Potenciada por IA',
+          'Una plataforma full-stack donde los pacientes se registran a su propio ritmo, programan citas con disponibilidad en tiempo real y obtienen asistencia de un chatbot de IA. Los administradores gestionan las citas con notificaciones SMS automatizadas.',
+        demoAccess:
+          'Haga clic en "Demo Patient" en la página de inicio para un acceso instantáneo como paciente, o en "Admin" con la clave de acceso "123456" para las funciones de administrador.',
+        subtitle:
+          'Plataforma dental full-stack y Responsive que digitaliza el registro de pacientes, la programación de citas y la administración.',
       },
       description:
         'Soluciones reales para problemas reales - creadas con empatía hacia el cliente y tecnología de vanguardia.',
       header1: 'Proyectos',
       header2: 'Destacados',
-      nomadgym: {
-        problemDesc:
-          'Los viajeros de RV pierden horas buscando en múltiples sitios web de gimnasios para pases diarios, a menudo encontrando información desactualizada.',
-        solutionDesc:
-          'Creó una plataforma centralizada con disponibilidad de gimnasio en tiempo real, mapeo de ubicación y pases digitales instantáneos.',
-        subtitle: 'Red de gimnasios para nómadas\n',
-      },
       problem: 'Problema',
       solution: 'Solución',
     },
