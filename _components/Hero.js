@@ -118,11 +118,11 @@ export default function Hero() {
                       🚀
                     </span>
                   </div>
-                  <div>
+                  <div className='w-[80%]'>
                     <div className='font-bold text-sm lg:text-base text-slate-800 dark:text-header-dark'>
                       {t.curr1}
                     </div>
-                    <div className='text-xs lg:text-sm text-slate-700  dark:text-muted-text-dark'>
+                    <div className='text-xs lg:text-sm text-slate-700  dark:text-slate-300'>
                       {t.curr2}
                     </div>
                   </div>
