@@ -59,15 +59,16 @@ export const translations = {
       additional5: 'Promotional website for AI Tools company',
       code: 'Code',
       demoAccess: 'Demo Access',
+      demoVideoText: 'See 2-min video',
       dentahub: {
         problemDesc:
-          'Dental clinics rely on paper forms that are uncomfortable for patients to fill under time pressure, difficult to read, and easily lost - leading to inefficient data management.',
+          'Dental clinics rely on paper forms that are uncomfortable for patients to fill under time pressure, difficult to read, and easily lost. Staff waste hours answering repetitive phone questions about procedures and appointments.',
         solutionDesc:
-          'A full-stack platform where patients register at their own pace, schedule appointments with real-time availability, and get AI chatbot assistance. Admins manage appointments with automated SMS notifications.',
+          'A full-stack platform where patients register at their own pace, schedule appointments with real-time availability, and get answers with AI chatbot assistance (programmed with safety-first guardrails). Admins manage appointments with automated SMS notifications.',
         demoAccess:
           'Click "Demo Patient" on homepage for instant patient access, or "Admin" with passkey 123456 for admin features.',
         subtitle:
-          'Full-stack responsive dental platform that digitizes patient registration, appointment scheduling and administration',
+          'AI-enhanced dental platform that streamlines patient registration and appointment management',
       },
       description:
         'Real solutions for real problems - built with customer empathy and cutting-edge tech.',
@@ -151,15 +152,16 @@ export const translations = {
         'Web Promocional para una empresa de soluciones de Inteligencia Artificial',
       code: 'Código',
       demoAccess: 'Acceso a la Demo',
+      demoVideoText: 'Ver video (2min)',
       dentahub: {
         problemDesc:
-          'Las clínicas dentales dependen de formularios en papel que son incómodos para los pacientes que tienen poco tiempo para rellenarlos, difíciles de leer y que se pierden fácilmente, lo que conduce a una gestión de datos ineficiente.',
+          'Las clínicas dentales dependen de formularios en papel que son incómodos de rellenar, difíciles de leer y que se pierden fácilmente. Además, el personal desperdicia horas respondiendo preguntas telefónicas repetitivas sobre procedimientos y citas.',
         solutionDesc:
-          'Una plataforma full-stack donde los pacientes se registran a su propio ritmo, programan citas con disponibilidad en tiempo real y obtienen asistencia de un chatbot de IA. Los administradores gestionan las citas con notificaciones SMS automatizadas.',
+          'Una plataforma full-stack donde los pacientes se registran a su propio ritmo, programan citas con disponibilidad en tiempo real y obtienen asistencia de un chatbot de IA (programado con límites de seguridad). Los administradores gestionan las citas con notificaciones SMS automatizadas.',
         demoAccess:
           'Haga clic en "Demo Patient" en la página de inicio para un acceso instantáneo como paciente, o en "Admin" con la clave de acceso "123456" para las funciones de administrador.',
         subtitle:
-          'Plataforma dental full-stack y Responsive que digitaliza el registro de pacientes, la programación de citas y la administración.',
+          'Plataforma dental con IA que optimiza el registro de pacientes y la gestión de citas.',
       },
       description:
         'Soluciones reales para problemas reales - creadas con empatía hacia el cliente y tecnología de vanguardia.',
