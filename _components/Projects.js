@@ -11,23 +11,25 @@ const projects = [
     key: 'dentahub',
     title: 'DentaHub',
     subtitle:
-      'Full-stack responsive dental platform that digitizes patient registration, appointment scheduling and administration',
+      'AI-enhanced dental platform that streamlines patient registration and appointment management',
     liveUrl: 'https://dentahub.vercel.app/',
     githubUrl: 'https://github.com/verobelo/dentahub',
     previewImage: '/dentahub-preview.png',
     problemDesc:
-      'Dental clinics rely on paper forms that are uncomfortable for patients to fill under time pressure, difficult to read, and easily lost - leading to inefficient data management.',
+      'Dental clinics rely on paper forms that are uncomfortable for patients to fill under time pressure, difficult to read, and easily lost. Staff waste hours answering repetitive phone questions about procedures and appointments.',
     solutionDesc:
-      'A full-stack platform where patients register at their own pace, schedule appointments with real-time availability, and get AI chatbot assistance. Admins manage appointments with automated SMS notifications.',
+      'A full-stack platform where patients register at their own pace, schedule appointments with real-time availability, and get instant answers with AI chatbot assistance (programmed with safety-first guardrails). Admins manage appointments with automated SMS notifications.',
     demoAccess:
       'Click "Demo Patient" on homepage for instant patient access, or "Admin" with passkey 123456 for admin features.',
+    demoVideoUrl:
+      'https://www.loom.com/share/d71b9d8645634cbfbff0b90f7dd5262c?sid=b2a21758-eb98-4c31-93fa-08065c38de25',
     tags: [
       'Next.js 15',
       'Typescript',
+      'OpenAI API',
       'Appwrite',
       'Tailwind CSS',
       'shadcn',
-      'OpenAI',
     ],
   },
 ];
@@ -199,6 +201,14 @@ function ProjectCard({ project, translations, t }) {
             className='bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-md hover:bg-white/30 transition-colors font-bold flex items-center gap-2'>
             <Image src='/github.svg' alt='Github' width={20} height={20} />
             {t.code}
+          </Link>
+
+          <Link
+            href={project.demoVideoUrl}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-md hover:bg-white/30 transition-colors font-bold flex items-center gap-2'>
+            {t.demoVideoText}
           </Link>
         </div>
       </div>
