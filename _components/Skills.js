@@ -86,7 +86,7 @@ export default function Skills() {
 
           <div>
             <h3 className='text-lg md:text-xl lg:text-2xl font-semibold text-slate-700 dark:text-header-dark mb-8 flex items-center gap-3'>
-              <span className='w-2 h-8 bg-gradient-to-b from-indigo-400 to-pink-400 dark:from-indigo-600 dark:to-pink-600 rounded-full'></span>
+              <span className='w-2 h-8 shrink-0 bg-gradient-to-b from-indigo-400 to-pink-400 dark:from-indigo-600 dark:to-pink-600 rounded-full'></span>
               {t.soft}
             </h3>
 
