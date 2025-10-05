@@ -79,11 +79,12 @@ export const translations = {
     },
     skills: {
       fun1: 'Fun Fact About me',
-      fun2: 'Yes, I know how to center a div in at least 5 ways! Based in sunny Spain, fueled by good coffee and user feedback.',
+      fun2: 'Yes, I can center a div in at least 5 ways! Based in sunny Spain, fueled by "relaxing cups of café con leche" and an occasional CSS battle :)',
       soft: 'What Makes Me Different',
-      soft1: 'Multilingual (EN/ES/RU/FR)',
-      soft2: 'Customer Service',
-      soft3: 'Agile Methodologies',
+      soft1: 'Translating 10 years of customer service into better UX',
+      soft2:
+        'Multilingual (RU/ES/EN/FR) for international teams & global products',
+      soft3: 'AI integration experience with responsible, safety-first design',
       stack: 'Technical Stack',
       title1: 'Technical Skills &',
       title2: 'Superpowers',
@@ -172,10 +173,11 @@ export const translations = {
     },
     skills: {
       fun1: 'Dato curioso sobre mí',
-      fun2: '¡Sí, sé cómo centrar un div de al menos 5 maneras! Creando en la soleada España, motivada por buen café y comentarios de los usuarios.',
+      fun2: '¡Sí, sé cómo centrar un div de al menos 5 maneras! Creando en la soleada España, motivada por "relaxing cups of café con leche" y alguna que otra batalla con el CSS :)',
       soft: 'Qué me hace destacar',
-      soft1: 'Multilingüe (EN/ES/RU/FR)',
-      soft2: 'Servicio al Cliente',
+      soft1: 'Convirtiendo 10 años de servicio al cliente en una mejor UX',
+      soft2:
+        'Experiencie en la implementación de IA, priorizando un diseño responsable y seguro',
       soft3: 'Metodologías Agile',
       stack: 'Stack Tecnológico',
       title1: 'Habilidades &',
