@@ -31,9 +31,9 @@ export default function Skills() {
       img: '/api.svg',
     },
     { name: 'Git', img: '/git.svg' },
-    { name: 'Vite / st', img: '/vitest.svg' },
+    { name: 'Appwrite', img: '/app.svg' },
     {
-      name: 'AI',
+      name: 'OpenAI API',
       img: '/ai.svg',
     },
   ];
