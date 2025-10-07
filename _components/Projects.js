@@ -78,7 +78,7 @@ export default function Projects() {
             />
           ))}
         </div>
-        <div className='bg-gradient-to-r from-indigo-500/10 to-pink-500/10  rounded-2xl p-4 lg:p-6 border border-indigo-100'>
+        {/*<div className='bg-gradient-to-r from-indigo-500/10 to-pink-500/10  rounded-2xl p-4 lg:p-6 border border-indigo-100'>
           <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
             <div>
               <h3 className='text-lg lg:text-xl font-bold bg-gradient-to-br from-indigo-400 to-pink-400 bg-clip-text text-transparent mb-2 dark:from-indigo-600 dark:to-pink-600'>
@@ -95,7 +95,7 @@ export default function Projects() {
             </div>
             <div className='hidden md:block md:text-4xl'>⚡</div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
