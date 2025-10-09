@@ -70,14 +70,6 @@ export const translations = {
         subtitle:
           'AI-enhanced dental platform that streamlines patient registration and appointment management',
       },
-      cv: {
-        problemDesc:
-          'Job seekers face expensive CV builder subscriptions ($10-30/month), complex interfaces, and risk losing their work due to accidental browser closures.',
-        solutionDesc:
-          "Built a free, bilingual (EN/ES) resume builder with real-time preview that updates as users type. Implemented browser's native window.print() API for perfect PDF formatting and Local Storage for automatic data persistence.",
-        subtitle:
-          'CV builder with real-time update, downloadable PDF and bilignual interface',
-      },
       description:
         'Real solutions for real problems - built with customer empathy and cutting-edge tech.',
       header1: 'Featured',
