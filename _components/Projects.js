@@ -92,7 +92,16 @@ export default function Projects() {
                   {t.additional2} <span className='md:hidden text-lg'>⚡</span>:{' '}
                 </span>
                 <span className='block md:inline text-base md:text-lg dark:text-body-text-dark'>
-                  {t.additional3}
+                  {t.additional3}{' '}
+                  <Link href='https://nomadgym.es/' className='underline'>
+                    {t.additional4}
+                  </Link>
+                  {t.additional5}
+                  <Link
+                    href='https://www.linkedin.com/company/nomadgym'
+                    className='underline'>
+                    Linkedin!
+                  </Link>
                 </span>
               </p>
             </div>
