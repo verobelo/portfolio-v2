@@ -32,6 +32,23 @@ const projects = [
       'shadcn',
     ],
   },
+  {
+    id: '2',
+    key: 'cv',
+    title: 'Git That Job - Cv Creator',
+    subtitle:
+      'CV builder with real-time update, downloadable PDF and bilignual interface',
+    liveUrl: 'https://gitthatjob.vercel.app/',
+    githubUrl: 'https://github.com/verobelo/cv-creator',
+    previewImage: '/cv-preview.png',
+    problemDesc:
+      'Job seekers face expensive CV builder subscriptions ($10-30/month), complex interfaces, and risk losing their work due to accidental browser closures.',
+    solutionDesc:
+      "Built a free, bilingual (EN/ES) resume builder with real-time preview that updates as users type. Implemented browser's native window.print() API for perfect PDF formatting and Local Storage for automatic data persistence.",
+    demoVideoUrl:
+      'https://www.loom.com/share/b1cd2fa31b504ad0bd49456f597b8f9f?sid=25cd6184-0bab-462e-a89b-a2b8ce02b9e8',
+    tags: ['React 18', 'CSS3', 'Vite', 'Local storage API'],
+  },
 ];
 
 export default function Projects() {
