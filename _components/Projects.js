@@ -70,7 +70,7 @@ export default function Projects() {
         </div>*/}
         <div
           className={`${
-            projects.length === 1 ? 'md:grid-cols-2' : ''
+            projects.length === 1 ? 'md:grid-cols-1' : 'md:grid-cols-2'
           } grid gap-8 lg:gap-12 mb-12`}>
           {projects.map((project) => (
             <ProjectCard
@@ -81,7 +81,7 @@ export default function Projects() {
             />
           ))}
         </div>
-        {/*<div className='bg-gradient-to-r from-indigo-500/10 to-pink-500/10  rounded-2xl p-4 lg:p-6 border border-indigo-100'>
+        <div className='bg-gradient-to-r from-indigo-500/10 to-pink-500/10  rounded-2xl p-4 lg:p-6 border border-indigo-100'>
           <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
             <div>
               <h3 className='text-lg lg:text-xl font-bold bg-gradient-to-br from-indigo-400 to-pink-400 bg-clip-text text-transparent mb-2 dark:from-indigo-600 dark:to-pink-600'>
@@ -92,13 +92,13 @@ export default function Projects() {
                   {t.additional2} <span className='md:hidden text-lg'>⚡</span>:{' '}
                 </span>
                 <span className='block md:inline text-base md:text-lg dark:text-body-text-dark'>
-                  {t.additional3} 📎 {t.additional4} 📎 {t.additional5}
+                  {t.additional3}
                 </span>
               </p>
             </div>
             <div className='hidden md:block md:text-4xl'>⚡</div>
           </div>
-        </div>*/}
+        </div>
       </div>
     </section>
   );
