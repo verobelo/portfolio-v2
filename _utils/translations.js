@@ -54,7 +54,10 @@ export const translations = {
     projects: {
       additional1: 'More Projects Coming Soon',
       additional2: 'Currently building',
-      additional3: 'NomadGym - Online Gym Pass for travalers in Spain',
+      additional3:
+        'NomadGym - Online Gym Pass for travalers in Spain. Follow the development ',
+      additional4: 'here',
+      additional5: ' or on ',
       code: 'Code',
       demoAccess: 'Demo Access',
       demoVideoText: 'See 2-min video',
@@ -144,7 +147,9 @@ export const translations = {
       additional1: 'Más proyectos próximamente',
       additional2: 'Actualmente creando',
       additional3:
-        'NomadGym - Plataforma agregadora de gimnasios con gym-pass unificado para viajeros',
+        'NomadGym - Plataforma agregadora de gimnasios con gym-pass unificado para viajeros. Siga el desarrollo ',
+      additional4: 'aqui',
+      additional5: ' o en ',
       code: 'Código',
       demoAccess: 'Acceso a la Demo',
       demoVideoText: 'Ver video (2min)',
