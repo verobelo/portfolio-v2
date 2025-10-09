@@ -149,7 +149,7 @@ function ProjectCard({ project, translations, t }) {
 
       <div className='p-4 md:p-6'>
         <div className='mb-3 md:mb-4'>
-          <h3 className='text-xl md:text-2xl font-semibold mb-1 bg-gradient-to-br from-indigo-400 to-pink-400 bg-clip-text text-transparent dark:from-indigo-600 dark:to-pink-600'>
+          <h3 className='text-xl md:text-2xl font-semibold mb-1 bg-gradient-to-br from-indigo-600 to-pink-600 bg-clip-text text-transparent dark:from-indigo-400 dark:to-pink-400'>
             {project.title}
           </h3>
           <p className='text-sm md:text-base italic text-slate-700 dark:text-body-text-dark'>
