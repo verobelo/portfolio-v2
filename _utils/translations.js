@@ -54,9 +54,7 @@ export const translations = {
     projects: {
       additional1: 'More Projects Coming Soon',
       additional2: 'Currently building',
-      additional3: 'Online Gym Pass for travalers in Spain',
-      additional4: 'Website for a cocktail & live music beach club',
-      additional5: 'Promotional website for AI Tools company',
+      additional3: 'NomadGym - Online Gym Pass for travalers in Spain',
       code: 'Code',
       demoAccess: 'Demo Access',
       demoVideoText: 'See 2-min video',
@@ -146,11 +144,7 @@ export const translations = {
       additional1: 'Más proyectos próximamente',
       additional2: 'Actualmente creando',
       additional3:
-        'Plataforma agregadora de pases flexibles de gimnasios para viajeros',
-      additional4:
-        'Sitio web para un Club de Playa con cócteles y música en vivo',
-      additional5:
-        'Web Promocional para una empresa de soluciones de Inteligencia Artificial',
+        'NomadGym - Plataforma agregadora de gimnasios con gym-pass unificado para viajeros',
       code: 'Código',
       demoAccess: 'Acceso a la Demo',
       demoVideoText: 'Ver video (2min)',
