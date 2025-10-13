@@ -65,7 +65,11 @@ export default function Hero() {
             <div className='flex flex-col md:flex-row gap-3 items-center justify-center grow-0 md:grow md:justify-start mt-6 lg:mt-8'>
               <Link
                 prefetch={false}
-                href={`${language === 'en' ? '/cv-en.pdf' : 'cv-es.pdf'}`}
+                href={`${
+                  language === 'en'
+                    ? '/Veronika-Belozerova-Frontend-EN.pdf'
+                    : '/Veronika-Belozerova-Frontend-ES.pdf'
+                }`}
                 className='bg-white dark:bg-primary-dark text-indigo-600 border-2 border-indigo-600 dark:border-indigo-400 px-5 md:px-6 py-2 md:py-3 rounded-full hover:bg-indigo-600 hover:text-white transition-all hover:scale-105 font-semibold shadow-lg text-base md:text-lg flex items-center gap-2 w-full sm:w-auto justify-center dark:text-indigo-400 dark:hover:bg-indigo-500'>
                 <Image
                   src='/case1.svg'
